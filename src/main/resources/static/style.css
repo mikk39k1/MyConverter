@@ -1,0 +1,44 @@
+
+.web-page{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.converter-container{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    background-color: #ebf3ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.btn{
+    grid-area: btn;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+    justify-self: center;
+    margin: 15px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.result-text{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
